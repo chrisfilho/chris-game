@@ -31,6 +31,9 @@ h2{
 #cabecalho{
 	width:952px;
 	display: block;
+
+
+
 }
 
 div#busca  {
@@ -58,7 +61,7 @@ div#cabecalho #topo{
 	color: #FFFFFF;
 	background: #610B21;
 	width: 100%;
-
+background: #000;
 }
 
 div#busca input {
@@ -109,12 +112,39 @@ div#busca input {
 }
 
 #rodape{
-	min-height: 40px;	
+	min-height:70px;	
 	width:950px;
 	display: block;
-	background:#0000ff;
+	background:#672E2E;
 	border:1px solid #000000;
+
 }
+
+#rodape p{
+
+color: #DF01D7;
+
+text-align: center;
+margin-top: 45px;
+
+}
+
+
+#telefone {
+height:50px;
+width: 150px;
+float: right;
+color: #ffffff;
+
+
+
+
+
+}
+
+
+
+
 
 #principal{
 	display: table;
@@ -170,4 +200,23 @@ ul.menu-itens li:hover ul, .menu li.over ul{background color:#ffffff;display:tab
 
 table.tablesorter{
 	width: 90%;
+margin-left: 40px;
+height:150px;
+margin-bottom: 50px;
+border:1px solid #000000;
+}
+
+
+#links{height:20px;
+width: 952px;
+background: #F5A9D0;
+
+
+}
+
+#links p{
+word-spacing: 180px;
+margin-top: 10px;
+margin-left:20px;
+
 }
